@@ -1,4 +1,6 @@
 
+import { FaCheckCircle, FaCog, FaClock, FaSolarPanel, FaCertificate, FaMoneyBillWave, FaHome, FaTools, FaShieldAlt, FaFileAlt, FaCamera } from 'react-icons/fa'
+
 const Process = () => {
   const installationSteps = [
     {
@@ -97,10 +99,8 @@ const Process = () => {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Key Points</h3>
               <ul className="space-y-4">
                 {keyPoints.map((point, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <span className="text-white text-sm">✓</span>
-                    </div>
+                  <li key={index} className="flex items-start space-x-4">
+                    <FaCheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-1" />
                     <span className="text-gray-700">{point}</span>
                   </li>
                 ))}
@@ -111,9 +111,9 @@ const Process = () => {
               <h3 className="text-2xl font-bold text-gray-800 mb-6">Technical Requirements</h3>
               <ul className="space-y-4">
                 {technicalRequirements.map((requirement, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <span className="text-white text-sm">⚙️</span>
+                  <li key={index} className="flex items-start space-x-4">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <FaCog className="w-4 h-4 text-white" />
                     </div>
                     <span className="text-gray-700">{requirement}</span>
                   </li>

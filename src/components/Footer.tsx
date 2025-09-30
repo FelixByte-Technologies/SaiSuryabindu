@@ -1,4 +1,6 @@
 
+import { FaEnvelope, FaPhone, FaShieldAlt, FaMapMarkerAlt, FaSolarPanel, FaTools, FaHandshake, FaWrench, FaFileAlt, FaShield } from 'react-icons/fa'
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -24,9 +26,18 @@ const Footer = () => {
                 to help you achieve zero electricity bills for 25 years.
               </p>
               <div className="space-y-2 text-sm text-gray-300">
-                <p><span className="font-semibold">Email:</span> saisuryabindu@gmail.com</p>
-                <p><span className="font-semibold">Phone:</span> 82600-88881 / 94372-88881</p>
-                <p><span className="font-semibold">Status:</span> Registered vendor under PM Surya Ghar Muft Bijli Yojana</p>
+                <p className="flex items-center">
+                  <FaEnvelope className="w-4 h-4 mr-2 text-green-400" />
+                  <span className="font-semibold">Email:</span> saisuryabindu@gmail.com
+                </p>
+                <p className="flex items-center">
+                  <FaPhone className="w-4 h-4 mr-2 text-green-400" />
+                  <span className="font-semibold">Phone:</span> 82600-88881 / 94372-88881
+                </p>
+                <p className="flex items-center">
+                  <FaShieldAlt className="w-4 h-4 mr-2 text-green-400" />
+                  <span className="font-semibold">Status:</span> Registered vendor under PM Surya Ghar Muft Bijli Yojana
+                </p>
               </div>
             </div>
 
@@ -47,14 +58,38 @@ const Footer = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Our Services</h4>
               <ul className="space-y-2 text-sm text-gray-300">
-                <li>• Solar Panel Installation</li>
-                <li>• On-grid Systems</li>
-                <li>• Off-grid Systems</li>
-                <li>• Hybrid Systems</li>
-                <li>• Subsidy Support</li>
-                <li>• Bank Loan Assistance</li>
-                <li>• Maintenance & AMC</li>
-                <li>• Insurance Coverage</li>
+                <li className="flex items-center">
+                  <FaSolarPanel className="w-3 h-3 mr-2 text-green-400" />
+                  Solar Panel Installation
+                </li>
+                <li className="flex items-center">
+                  <FaTools className="w-3 h-3 mr-2 text-green-400" />
+                  On-grid Systems
+                </li>
+                <li className="flex items-center">
+                  <FaTools className="w-3 h-3 mr-2 text-green-400" />
+                  Off-grid Systems
+                </li>
+                <li className="flex items-center">
+                  <FaTools className="w-3 h-3 mr-2 text-green-400" />
+                  Hybrid Systems
+                </li>
+                <li className="flex items-center">
+                  <FaHandshake className="w-3 h-3 mr-2 text-green-400" />
+                  Subsidy Support
+                </li>
+                <li className="flex items-center">
+                  <FaFileAlt className="w-3 h-3 mr-2 text-green-400" />
+                  Bank Loan Assistance
+                </li>
+                <li className="flex items-center">
+                  <FaWrench className="w-3 h-3 mr-2 text-green-400" />
+                  Maintenance & AMC
+                </li>
+                <li className="flex items-center">
+                  <FaShield className="w-3 h-3 mr-2 text-green-400" />
+                  Insurance Coverage
+                </li>
               </ul>
             </div>
           </div>
@@ -63,7 +98,10 @@ const Footer = () => {
           <div className="border-t border-gray-700 mt-8 pt-8">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
-                <h4 className="text-lg font-semibold mb-3 text-green-400">Head Office</h4>
+                <h4 className="text-lg font-semibold mb-3 text-green-400 flex items-center">
+                  <FaMapMarkerAlt className="mr-2" />
+                  Head Office
+                </h4>
                 <p className="text-gray-300 text-sm">
                   Plot No 38/621, Room No 1, Laxmivihar (1st Lane),<br />
                   Sainik School (Khorda), Sahid Nagar Police station,<br />
@@ -71,7 +109,10 @@ const Footer = () => {
                 </p>
               </div>
               <div>
-                <h4 className="text-lg font-semibold mb-3 text-green-400">Branch Office</h4>
+                <h4 className="text-lg font-semibold mb-3 text-green-400 flex items-center">
+                  <FaMapMarkerAlt className="mr-2" />
+                  Branch Office
+                </h4>
                 <p className="text-gray-300 text-sm">
                   Mishapada, Angul Town,<br />
                   Dist Angul, Odisha

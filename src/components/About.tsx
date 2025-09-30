@@ -1,4 +1,6 @@
 
+import { FaBuilding, FaCertificate, FaEnvelope, FaMapMarkerAlt, FaSolarPanel, FaShieldAlt, FaTools, FaClock } from 'react-icons/fa'
+
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
@@ -25,13 +27,31 @@ const About = () => {
               </p>
               
               <div className="bg-green-50 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold text-green-800 mb-3">Company Details</h4>
+                <h4 className="text-lg font-semibold text-green-800 mb-3 flex items-center">
+                  <FaBuilding className="mr-2" />
+                  Company Details
+                </h4>
                 <ul className="space-y-2 text-gray-700">
-                  <li><span className="font-semibold">Registration:</span> LLP Act 2008, Ministry of Corporate Affairs</li>
-                  <li><span className="font-semibold">LLPIN:</span> ACK-3246</li>
-                  <li><span className="font-semibold">Status:</span> Registered vendor under PM Surya Ghar Muft Bijli Yojana</li>
-                  <li><span className="font-semibold">DISCOM:</span> TPCODL, Bhubaneswar, Odisha</li>
-                  <li><span className="font-semibold">Email:</span> saisuryabindu@gmail.com</li>
+                  <li className="flex items-center">
+                    <FaCertificate className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="font-semibold">Registration:</span> LLP Act 2008, Ministry of Corporate Affairs
+                  </li>
+                  <li className="flex items-center">
+                    <FaCertificate className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="font-semibold">LLPIN:</span> ACK-3246
+                  </li>
+                  <li className="flex items-center">
+                    <FaShieldAlt className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="font-semibold">Status:</span> Registered vendor under PM Surya Ghar Muft Bijli Yojana
+                  </li>
+                  <li className="flex items-center">
+                    <FaMapMarkerAlt className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="font-semibold">DISCOM:</span> TPCODL, Bhubaneswar, Odisha
+                  </li>
+                  <li className="flex items-center">
+                    <FaEnvelope className="w-4 h-4 mr-2 text-green-600" />
+                    <span className="font-semibold">Email:</span> saisuryabindu@gmail.com
+                  </li>
                 </ul>
               </div>
             </div>
@@ -48,18 +68,22 @@ const About = () => {
 
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
+                  <FaSolarPanel className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-green-600">300</div>
                   <div className="text-sm text-gray-600">Units Free Electricity/Month</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
+                  <FaShieldAlt className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-green-600">25</div>
                   <div className="text-sm text-gray-600">Years Warranty</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
+                  <FaClock className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-green-600">1</div>
                   <div className="text-sm text-gray-600">Day Installation</div>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
+                  <FaTools className="w-8 h-8 text-green-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-green-600">5</div>
                   <div className="text-sm text-gray-600">Years Free AMC</div>
                 </div>

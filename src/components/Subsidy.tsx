@@ -1,4 +1,6 @@
 
+import { FaCheckCircle, FaFileAlt, FaMoneyBillWave, FaShieldAlt, FaHandshake } from 'react-icons/fa'
+
 const Subsidy = () => {
   const subsidyRates = [
     { capacity: "3 KW", amount: "₹1,38,000", netCost: "₹72,000", totalCost: "₹2,10,000" },
@@ -57,21 +59,15 @@ const Subsidy = () => {
                 <h4 className="text-xl font-semibold text-green-600 mb-4">Financial Benefits</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Free Electricity up to 25 years</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Zero electric bill with Zero investment</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Up to 300 units free electricity per month</span>
                   </li>
                 </ul>
@@ -80,21 +76,15 @@ const Subsidy = () => {
                 <h4 className="text-xl font-semibold text-green-600 mb-4">Additional Benefits</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Bank loan support with easy EMI</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Insurance coverage for solar system</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
-                      <span className="text-white text-sm">✓</span>
-                    </span>
+                    <FaCheckCircle className="w-5 h-5 text-green-500 mr-4 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-700">Complete documentation support</span>
                   </li>
                 </ul>
