@@ -45,6 +45,7 @@ A modern, professional website for Sai Suryabindu Ventures LLP, showcasing solar
 - `yarn build` - Build for production
 - `yarn preview` - Preview production build
 - `yarn lint` - Run ESLint
+- `yarn deploy` - Deploy to GitHub Pages
 
 ## 📁 Project Structure
 
@@ -106,6 +107,30 @@ Tailwind CSS is configured to scan all TypeScript and TSX files in the `src` dir
 - `eslint` - Code linting
 
 ## 🚀 Deployment
+
+### GitHub Pages
+
+1. **First-time setup:**
+   - Enable GitHub Pages in your repository settings
+   - Set source to "Deploy from a branch"
+   - Select "gh-pages" branch
+
+2. **Deploy to GitHub Pages:**
+   ```bash
+   yarn deploy
+   ```
+   This will:
+   - Build the project (`yarn build`)
+   - Deploy the `dist` folder to the `gh-pages` branch
+   - Your site will be available at `https://felixbyte-technologies.github.io/SaiSuryabindu/`
+
+3. **Manual deployment:**
+   ```bash
+   yarn build
+   yarn deploy
+   ```
+
+### Other Hosting Services
 
 1. Build the project:
    ```bash
