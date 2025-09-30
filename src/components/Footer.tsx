@@ -1,5 +1,5 @@
 
-import { FaEnvelope, FaPhone, FaShieldAlt, FaMapMarkerAlt, FaSolarPanel, FaTools, FaHandshake, FaWrench, FaFileAlt, FaShield } from 'react-icons/fa'
+import { FaEnvelope, FaPhone, FaShieldAlt, FaMapMarkerAlt, FaSolarPanel, FaTools, FaHandshake, FaWrench, FaFileAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -87,7 +87,7 @@ const Footer = () => {
                   Maintenance & AMC
                 </li>
                 <li className="flex items-center">
-                  <FaShield className="w-3 h-3 mr-2 text-green-400" />
+                  <FaShieldAlt className="w-3 h-3 mr-2 text-green-400" />
                   Insurance Coverage
                 </li>
               </ul>
