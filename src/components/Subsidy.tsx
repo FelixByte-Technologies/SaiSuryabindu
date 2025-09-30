@@ -56,20 +56,20 @@ const Subsidy = () => {
               <div>
                 <h4 className="text-xl font-semibold text-green-600 mb-4">Financial Benefits</h4>
                 <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Free Electricity up to 25 years</span>
                   </li>
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Zero electric bill with Zero investment</span>
                   </li>
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Up to 300 units free electricity per month</span>
@@ -79,20 +79,20 @@ const Subsidy = () => {
               <div>
                 <h4 className="text-xl font-semibold text-green-600 mb-4">Additional Benefits</h4>
                 <ul className="space-y-3">
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Bank loan support with easy EMI</span>
                   </li>
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Insurance coverage for solar system</span>
                   </li>
-                  <li className="flex items-center">
-                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center mr-3">
+                  <li className="flex items-start">
+                    <span className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">
                       <span className="text-white text-sm">✓</span>
                     </span>
                     <span className="text-gray-700">Complete documentation support</span>
