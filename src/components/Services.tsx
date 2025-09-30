@@ -1,5 +1,5 @@
 
-import { FaTools, FaBolt, FaWrench, FaMoneyBillWave, FaCheckCircle, FaCog } from 'react-icons/fa'
+import { FaTools, FaBolt, FaWrench, FaMoneyBillWave, FaCheckCircle } from 'react-icons/fa'
 
 const Services = () => {
   const services = [

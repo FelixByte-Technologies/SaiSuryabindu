@@ -1,5 +1,5 @@
 
-import { FaCheckCircle, FaFileAlt, FaMoneyBillWave, FaShieldAlt, FaHandshake } from 'react-icons/fa'
+import { FaCheckCircle } from 'react-icons/fa'
 
 const Subsidy = () => {
   const subsidyRates = [

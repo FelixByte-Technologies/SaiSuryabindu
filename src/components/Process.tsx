@@ -1,5 +1,5 @@
 
-import { FaCheckCircle, FaCog, FaClock, FaSolarPanel, FaCertificate, FaMoneyBillWave, FaHome, FaTools, FaShieldAlt, FaFileAlt, FaCamera } from 'react-icons/fa'
+import { FaCheckCircle, FaCog } from 'react-icons/fa'
 
 const Process = () => {
   const installationSteps = [

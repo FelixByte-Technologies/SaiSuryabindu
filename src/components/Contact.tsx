@@ -1,5 +1,5 @@
 
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaUser, FaBuilding, FaCheckCircle } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
 const Contact = () => {
   const managementTeam = [
