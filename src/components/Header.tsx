@@ -11,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/logo.png" 
+              src="/SaiSuryabindu/logo.png" 
               alt="SAI SURYABINDU Logo" 
               className="h-28 w-auto"
             />
