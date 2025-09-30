@@ -8,9 +8,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">SS</span>
-                </div>
+                <img 
+                  src="/logo.png" 
+                  alt="SAI SURYABINDU Logo" 
+                  className="h-12 w-auto"
+                />
                 <div>
                   <h3 className="text-xl font-bold">Sai Suryabindu Ventures LLP</h3>
                   <p className="text-green-400 text-sm">Solution for Solar Energy</p>

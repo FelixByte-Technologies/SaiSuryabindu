@@ -9,9 +9,11 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">SS</span>
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="SAI SURYABINDU Logo" 
+              className="h-28 w-auto"
+            />
             <div>
               <h1 className="text-xl font-bold text-gray-800">Sai Suryabindu Ventures LLP</h1>
               <p className="text-sm text-green-600">Solution for Solar Energy</p>
