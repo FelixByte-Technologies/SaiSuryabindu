@@ -11,9 +11,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/SaiSuryabindu/logo.png" 
+              src="./logo.jpg" 
               alt="SAI SURYABINDU Logo" 
-              className="h-28 w-auto"
+              className="h-16 w-16 rounded-full object-cover"
             />
             <div>
               <h1 className="text-xl font-bold text-gray-800">Sai Suryabindu Ventures LLP</h1>

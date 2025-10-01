@@ -11,9 +11,9 @@ const Footer = () => {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-3 mb-4">
                 <img 
-                  src="/SaiSuryabindu/logo.png" 
+                  src="./logo.jpg" 
                   alt="SAI SURYABINDU Logo" 
-                  className="h-12 w-auto"
+                  className="h-12 w-12 rounded-full object-cover"
                 />
                 <div>
                   <h3 className="text-xl font-bold">Sai Suryabindu Ventures LLP</h3>
