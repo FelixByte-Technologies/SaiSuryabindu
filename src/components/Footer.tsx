@@ -13,7 +13,7 @@ const Footer = () => {
                 <img 
                   src="./logo.jpg" 
                   alt="SAI SURYABINDU Logo" 
-                  className="h-12 w-12 rounded-full object-cover"
+                  className="h-16 w-16 rounded-lg object-contain bg-white p-2 border-2 border-gray-300"
                 />
                 <div>
                   <h3 className="text-xl font-bold">Sai Suryabindu Ventures LLP</h3>

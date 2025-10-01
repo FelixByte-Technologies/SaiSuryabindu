@@ -13,7 +13,7 @@ const Header = () => {
             <img 
               src="./logo.jpg" 
               alt="SAI SURYABINDU Logo" 
-              className="h-16 w-16 rounded-full object-cover"
+              className="h-20 w-20 rounded-lg object-contain bg-white p-2 border-2 border-gray-200"
             />
             <div>
               <h1 className="text-xl font-bold text-gray-800">Sai Suryabindu Ventures LLP</h1>
