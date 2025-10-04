@@ -38,7 +38,7 @@ const Subsidy = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Subsidy Amounts</h3>
             <div className="grid md:grid-cols-3 gap-6">
               {subsidyRates.map((rate, index) => (
-                <div key={index} className="bg-gradient-to-br from-green-500 to-emerald-600 text-white rounded-lg p-6 text-center">
+                <div key={index} className="bg-gradient-to-br from-green-400 to-emerald-500 text-white rounded-lg p-6 text-center">
                   <div className="text-3xl font-bold mb-2">{rate.capacity}</div>
                   <div className="text-2xl font-bold text-yellow-300 mb-2">{rate.amount}</div>
                   <div className="text-green-100 mb-4">Government Subsidy</div>
@@ -115,7 +115,7 @@ const Subsidy = () => {
           </div>
 
           {/* Payment Schedule */}
-          <div className="bg-gradient-to-r from-green-600 to-emerald-700 text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-8 text-center">Payment Schedule</h3>
             <div className="overflow-x-auto">
               <table className="w-full">

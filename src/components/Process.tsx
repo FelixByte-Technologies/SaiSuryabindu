@@ -11,7 +11,7 @@ const Process = () => {
     },
     {
       step: 2,
-      title: "DISCOM Approval",
+      title: "Bank Loan(if any) and Discom approval (if more than 10 KW)",
       description: "Only after approval from DISCOM, we will install the solar panel with MCB, SPD, earthing, Lightning Arrester and mark the space for installation.",
       duration: "5-10 days"
     },
@@ -73,20 +73,20 @@ const Process = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Step-by-Step Process</h3>
             <div className="space-y-8">
               {installationSteps.map((step, index) => (
-                <div key={index} className="flex flex-col md:flex-row items-start space-y-4 md:space-y-0 md:space-x-6">
+                <div key={index} className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
                   <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-full flex items-center justify-center text-2xl font-bold">
+                    <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-full flex items-center justify-center text-2xl font-bold">
                       {step.step}
                     </div>
                   </div>
-                  <div className="flex-1 bg-white rounded-lg shadow-lg p-6">
+                  <div className="flex-1 bg-white rounded-lg shadow-lg p-6 w-full">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3">
-                      <h4 className="text-xl font-bold text-gray-800">{step.title}</h4>
-                      <span className="text-green-600 font-semibold bg-green-100 px-3 py-1 rounded-full text-sm">
+                      <h4 className="text-xl font-bold text-gray-800 text-center md:text-left mb-2 md:mb-0">{step.title}</h4>
+                      <span className="text-green-600 font-semibold bg-green-100 px-3 py-1 rounded-full text-sm w-fit mx-auto md:mx-0">
                         {step.duration}
                       </span>
                     </div>
-                    <p className="text-gray-600">{step.description}</p>
+                    <p className="text-gray-600 text-center md:text-left">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -123,7 +123,7 @@ const Process = () => {
           </div>
 
           {/* Process Timeline */}
-          <div className="bg-gradient-to-r from-green-600 to-emerald-700 text-white rounded-lg p-8">
+          <div className="bg-gradient-to-r from-green-400 to-emerald-500 text-white rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-8 text-center">Process Timeline</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -132,7 +132,7 @@ const Process = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-yellow-300 mb-2">5-10 Days</div>
-                <div className="text-green-100">DISCOM Approval</div>
+                <div className="text-green-100">Bank Loan(if any) and Discom approval (if more than 10 KW)</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-yellow-300 mb-2">1 Day</div>
