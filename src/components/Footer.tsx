@@ -196,7 +196,7 @@ const Footer = () => {
                   <br />
                   Dist Angul, Odisha
                 </p>
-                <p className="text-gray-400 text-xs mt-3 bg-gray-700 p-2 rounded">
+                <p className="text-gray-200 text-xs mt-3 bg-gray-700 p-2 rounded">
                   Channel partners: Kendrapada, Jagatsinghpur, Puri, Dhenkanal
                 </p>
               </div>

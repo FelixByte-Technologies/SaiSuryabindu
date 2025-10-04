@@ -28,15 +28,15 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = "md" }) => {
         animate={
           hasAnimated
             ? {
-                rotateY: [0, 360],
-                scale: [1, 1.15, 1],
+                rotate: [0, 360, 0],
+                scale: [1, 1.05, 1],
               }
             : {}
         }
         transition={{
-          duration: 1.8,
-          ease: [0.25, 0.1, 0.25, 1],
-          times: [0, 0.3, 1],
+          duration: 3,
+          ease: [0.4, 0, 0.2, 1],
+          times: [0, 0.5, 1],
         }}
         style={{
           transformStyle: "preserve-3d",
