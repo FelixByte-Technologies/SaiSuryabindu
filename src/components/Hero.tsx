@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <section id="home" className="relative text-white py-32 overflow-hidden">
+    <section id="home" className="relative text-white py-24 overflow-hidden">
       {/* Background Image with Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-bottom bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url("./plant.png")',
         }}
