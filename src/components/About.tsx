@@ -130,6 +130,23 @@ const About = () => {
                 </p>
               </div>
 
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-green-50 border border-green-100 p-5 rounded-lg text-center">
+                  <FaTools className="w-8 h-8 text-green-600 mx-auto mb-2" />
+                  <div className="text-2xl font-bold text-green-700">30+</div>
+                  <div className="text-sm text-gray-700">
+                    Installations Completed
+                  </div>
+                </div>
+                <div className="bg-amber-50 border border-amber-100 p-5 rounded-lg text-center">
+                  <FaClock className="w-8 h-8 text-amber-600 mx-auto mb-2" />
+                  <div className="text-2xl font-bold text-amber-700">50+</div>
+                  <div className="text-sm text-gray-700">
+                    Applications Currently in Process
+                  </div>
+                </div>
+              </div>
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-gray-50 p-4 rounded-lg text-center">
                   <FaSolarPanel className="w-8 h-8 text-green-600 mx-auto mb-2" />

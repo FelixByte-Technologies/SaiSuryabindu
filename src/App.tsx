@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Process from "./components/Process";
 import Services from "./components/Services";
+import SolarRooftopInfo from "./components/SolarRooftopInfo";
 import Subsidy from "./components/Subsidy";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
       <Header />
       <Hero />
+      <SolarRooftopInfo />
       <About />
       <Services />
       <Subsidy />
